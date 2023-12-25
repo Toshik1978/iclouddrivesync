@@ -9,5 +9,4 @@ venv:
 
 install:
 	@echo "+ $@"
-	. .venv/bin/activate
-	pip install -Ur requirements.txt
+	. .venv/bin/activate; pip install -Ur requirements.txt
